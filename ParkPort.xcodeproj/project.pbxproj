@@ -8,20 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		010904CE1D491A77007DBE14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010904CD1D491A77007DBE14 /* AppDelegate.swift */; };
-		010904D01D491A77007DBE14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010904CF1D491A77007DBE14 /* ViewController.swift */; };
 		010904D31D491A77007DBE14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 010904D11D491A77007DBE14 /* Main.storyboard */; };
 		010904D51D491A77007DBE14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 010904D41D491A77007DBE14 /* Assets.xcassets */; };
 		010904D81D491A77007DBE14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 010904D61D491A77007DBE14 /* LaunchScreen.storyboard */; };
+		010904EB1D491BB9007DBE14 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 010904EA1D491BB9007DBE14 /* SWRevealViewController.m */; };
+		010904F41D491BD0007DBE14 /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 010904ED1D491BD0007DBE14 /* TPKeyboardAvoidingCollectionView.m */; };
+		010904F51D491BD0007DBE14 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 010904EF1D491BD0007DBE14 /* TPKeyboardAvoidingScrollView.m */; };
+		010904F61D491BD0007DBE14 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 010904F11D491BD0007DBE14 /* TPKeyboardAvoidingTableView.m */; };
+		010904F71D491BD0007DBE14 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 010904F31D491BD0007DBE14 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		010904F91D491C17007DBE14 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010904F81D491C17007DBE14 /* Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		010904CA1D491A77007DBE14 /* ParkPort.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkPort.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		010904CD1D491A77007DBE14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		010904CF1D491A77007DBE14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		010904D21D491A77007DBE14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		010904D41D491A77007DBE14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		010904D71D491A77007DBE14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		010904D91D491A77007DBE14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		010904E81D491BB8007DBE14 /* ParkPort-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ParkPort-Bridging-Header.h"; sourceTree = "<group>"; };
+		010904E91D491BB9007DBE14 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		010904EA1D491BB9007DBE14 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		010904EC1D491BD0007DBE14 /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		010904ED1D491BD0007DBE14 /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		010904EE1D491BD0007DBE14 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		010904EF1D491BD0007DBE14 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		010904F01D491BD0007DBE14 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		010904F11D491BD0007DBE14 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		010904F21D491BD0007DBE14 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		010904F31D491BD0007DBE14 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		010904F81D491C17007DBE14 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +71,96 @@
 			isa = PBXGroup;
 			children = (
 				010904CD1D491A77007DBE14 /* AppDelegate.swift */,
-				010904CF1D491A77007DBE14 /* ViewController.swift */,
+				010904DF1D491AC7007DBE14 /* Common */,
+				010904E51D491B1C007DBE14 /* Library */,
+				010904E41D491AF7007DBE14 /* Support Files */,
+				010904E31D491AEB007DBE14 /* Resources */,
+				010904E21D491AE4007DBE14 /* Model */,
+				010904E01D491AD3007DBE14 /* View */,
+				010904E11D491ADA007DBE14 /* ViewController */,
+			);
+			path = ParkPort;
+			sourceTree = "<group>";
+		};
+		010904DF1D491AC7007DBE14 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				010904F81D491C17007DBE14 /* Helper.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		010904E01D491AD3007DBE14 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		010904E11D491ADA007DBE14 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
 				010904D11D491A77007DBE14 /* Main.storyboard */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		010904E21D491AE4007DBE14 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		010904E31D491AEB007DBE14 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		010904E41D491AF7007DBE14 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				010904E81D491BB8007DBE14 /* ParkPort-Bridging-Header.h */,
 				010904D41D491A77007DBE14 /* Assets.xcassets */,
 				010904D61D491A77007DBE14 /* LaunchScreen.storyboard */,
 				010904D91D491A77007DBE14 /* Info.plist */,
 			);
-			path = ParkPort;
+			name = "Support Files";
+			sourceTree = "<group>";
+		};
+		010904E51D491B1C007DBE14 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				010904E71D491B86007DBE14 /* ScrollViewKeyboardAvoiding */,
+				010904E61D491B6B007DBE14 /* SWRevealViewController */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		010904E61D491B6B007DBE14 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				010904E91D491BB9007DBE14 /* SWRevealViewController.h */,
+				010904EA1D491BB9007DBE14 /* SWRevealViewController.m */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		010904E71D491B86007DBE14 /* ScrollViewKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				010904EC1D491BD0007DBE14 /* TPKeyboardAvoidingCollectionView.h */,
+				010904ED1D491BD0007DBE14 /* TPKeyboardAvoidingCollectionView.m */,
+				010904EE1D491BD0007DBE14 /* TPKeyboardAvoidingScrollView.h */,
+				010904EF1D491BD0007DBE14 /* TPKeyboardAvoidingScrollView.m */,
+				010904F01D491BD0007DBE14 /* TPKeyboardAvoidingTableView.h */,
+				010904F11D491BD0007DBE14 /* TPKeyboardAvoidingTableView.m */,
+				010904F21D491BD0007DBE14 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				010904F31D491BD0007DBE14 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+			);
+			name = ScrollViewKeyboardAvoiding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +234,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				010904D01D491A77007DBE14 /* ViewController.swift in Sources */,
 				010904CE1D491A77007DBE14 /* AppDelegate.swift in Sources */,
+				010904F91D491C17007DBE14 /* Helper.swift in Sources */,
+				010904F71D491BD0007DBE14 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				010904F61D491BD0007DBE14 /* TPKeyboardAvoidingTableView.m in Sources */,
+				010904F51D491BD0007DBE14 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				010904F41D491BD0007DBE14 /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				010904EB1D491BB9007DBE14 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,10 +355,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ParkPort/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = creatudevelopers.ParkPort;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ParkPort/ParkPort-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -262,10 +369,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ParkPort/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = creatudevelopers.ParkPort;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ParkPort/ParkPort-Bridging-Header.h";
 			};
 			name = Release;
 		};
